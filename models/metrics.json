@@ -1,0 +1,60 @@
+{
+  "timestamp": "2026-10-25T01:03:14.076119",
+  "winning_model": "Ridge Regression",
+  "models_evaluated": {
+    "Random Forest": {
+      "r2_score": 0.7297,
+      "mae": 33.68,
+      "rmse": 44.59,
+      "mape": 0.1498
+    },
+    "Gradient Boosting": {
+      "r2_score": 0.7631,
+      "mae": 31.14,
+      "rmse": 41.74,
+      "mape": 0.134
+    },
+    "Hist Gradient Boosting": {
+      "r2_score": 0.7754,
+      "mae": 30.79,
+      "rmse": 40.64,
+      "mape": 0.1339
+    },
+    "Ridge Regression": {
+      "r2_score": 0.7901,
+      "mae": 30.24,
+      "rmse": 39.29,
+      "mape": 0.1345
+    }
+  },
+  "winning_metrics": {
+    "r2_score": 0.7901,
+    "mae": 30.24,
+    "rmse": 39.29,
+    "mape": 0.1345
+  },
+  "training_samples": 3200,
+  "test_samples": 800,
+  "features_used": [
+    "city",
+    "neighborhood_type",
+    "room_type",
+    "accommodates",
+    "bedrooms",
+    "bathrooms",
+    "beds",
+    "minimum_nights",
+    "number_of_reviews",
+    "review_scores_rating",
+    "has_wifi",
+    "has_kitchen",
+    "has_air_conditioning",
+    "has_free_parking",
+    "has_washer",
+    "has_workspace",
+    "has_balcony",
+    "has_elevator",
+    "is_pet_friendly",
+    "has_pool_or_hot_tub"
+  ]
+}
